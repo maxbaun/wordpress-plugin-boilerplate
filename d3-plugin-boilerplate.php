@@ -37,6 +37,8 @@ add_action('init', function () {
 	Assets::init($manifest);
 	ShortcodeExample::init();
 
+	define('WP_GITHUB_FORCE_UPDATE', true);
+
 	if (is_admin()) { // note the use of is_admin() to double check that this is happening in the admin
 		$config = array(
 			'slug' => plugin_basename(__FILE__),
