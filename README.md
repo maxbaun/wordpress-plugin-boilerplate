@@ -1,5 +1,7 @@
 # Wordpress Plugin Boilerplate
 
+~Current Version:1.0.0~
+
 ### 1. Goal
 
 Goal
