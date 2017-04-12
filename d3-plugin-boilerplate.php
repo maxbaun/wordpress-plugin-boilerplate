@@ -24,7 +24,6 @@ use D3\Plugin\Config;
 use D3\Plugin\Assets;
 use D3\Plugin\Activation;
 use D3\Plugin\ShortcodeExample;
-use D3\Plugin\GithubUpdater;
 
 add_action('init', function () {
 	$paths = [
@@ -41,7 +40,7 @@ add_action('init', function () {
 	if (is_admin()) { // note the use of is_admin() to double check that this is happening in the admin
 		$config = array(
 			'slug' => plugin_basename(__FILE__),
-			'proper_folder_name' => 'github-updater',
+			'proper_folder_name' => 'd3-plugin-boilerplate',
 			'api_url' => 'https://api.github.com/repos/maxbaun/wordpress-plugin-boilerplate',
 			'raw_url' => 'https://raw.github.com/maxbaun/wordpress-plugin-boilerplate/master',
 			'github_url' => 'https://github.com/maxbaun/wordpress-plugin-boilerplate',
