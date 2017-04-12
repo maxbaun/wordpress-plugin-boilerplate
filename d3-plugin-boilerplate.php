@@ -4,7 +4,7 @@
 Plugin Name: D3 Applications Plugin Boilerplate
 Plugin URI: http://d3applications.com
 Description: Plugin Description
-Version: 1.0.0
+Version: 3.3.3
 Author: Max Baun
 Author URI: http://github.com/maxbaun
 License: GPL2
