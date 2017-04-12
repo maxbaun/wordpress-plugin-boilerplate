@@ -1,6 +1,6 @@
 # Wordpress Plugin Boilerplate
 
-~Current Version:1.0.0~
+~Current Version:3.0.0~
 
 ### 1. Goal
 
